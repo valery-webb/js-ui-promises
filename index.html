@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS_UI_PROMISES:</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/promises.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="talks-header">
+        <div class="title">AJAX: promises</div>
+        <span id="talks-count"></span>
+    </div>
+    <ul id="tech-talks-wrapper"></ul>
+    <button id="get-all-techtalks">GET ALL TECH TALKS</button>
+    <button id="run-crud-process">RUN CRUD PROCESS (console commented) </button>
+</div>
+
+
+
+<script type="text/javascript" src="mocks/tech-talk-mock.js"></script>
+<script type="text/javascript" src="js/promises-module.js"></script>
+<script type="text/javascript">
+
+window.onload = function() {
+    APP.promiseModule.init();
+}
+
+</script>
+
+</body>
+</html>
